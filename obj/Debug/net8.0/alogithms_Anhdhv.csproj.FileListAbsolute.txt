@@ -1,0 +1,14 @@
+C:\Users\vieta\source\repos\alogithms_Anhdhv\alogithms_Anhdhv\bin\Debug\net8.0\alogithms_Anhdhv.exe
+C:\Users\vieta\source\repos\alogithms_Anhdhv\alogithms_Anhdhv\bin\Debug\net8.0\alogithms_Anhdhv.deps.json
+C:\Users\vieta\source\repos\alogithms_Anhdhv\alogithms_Anhdhv\bin\Debug\net8.0\alogithms_Anhdhv.runtimeconfig.json
+C:\Users\vieta\source\repos\alogithms_Anhdhv\alogithms_Anhdhv\bin\Debug\net8.0\alogithms_Anhdhv.dll
+C:\Users\vieta\source\repos\alogithms_Anhdhv\alogithms_Anhdhv\bin\Debug\net8.0\alogithms_Anhdhv.pdb
+C:\Users\vieta\source\repos\alogithms_Anhdhv\alogithms_Anhdhv\obj\Debug\net8.0\alogithms_Anhdhv.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vieta\source\repos\alogithms_Anhdhv\alogithms_Anhdhv\obj\Debug\net8.0\alogithms_Anhdhv.AssemblyInfoInputs.cache
+C:\Users\vieta\source\repos\alogithms_Anhdhv\alogithms_Anhdhv\obj\Debug\net8.0\alogithms_Anhdhv.AssemblyInfo.cs
+C:\Users\vieta\source\repos\alogithms_Anhdhv\alogithms_Anhdhv\obj\Debug\net8.0\alogithms_Anhdhv.csproj.CoreCompileInputs.cache
+C:\Users\vieta\source\repos\alogithms_Anhdhv\alogithms_Anhdhv\obj\Debug\net8.0\alogithms_Anhdhv.dll
+C:\Users\vieta\source\repos\alogithms_Anhdhv\alogithms_Anhdhv\obj\Debug\net8.0\refint\alogithms_Anhdhv.dll
+C:\Users\vieta\source\repos\alogithms_Anhdhv\alogithms_Anhdhv\obj\Debug\net8.0\alogithms_Anhdhv.pdb
+C:\Users\vieta\source\repos\alogithms_Anhdhv\alogithms_Anhdhv\obj\Debug\net8.0\alogithms_Anhdhv.genruntimeconfig.cache
+C:\Users\vieta\source\repos\alogithms_Anhdhv\alogithms_Anhdhv\obj\Debug\net8.0\ref\alogithms_Anhdhv.dll

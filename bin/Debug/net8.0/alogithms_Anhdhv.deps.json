@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "alogithms_Anhdhv/1.0.0": {
+        "runtime": {
+          "alogithms_Anhdhv.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "alogithms_Anhdhv/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
