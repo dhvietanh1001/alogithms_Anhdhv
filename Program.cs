@@ -75,17 +75,18 @@ public class Program
         Console.WriteLine("\n");
 
         alogithms_Anhdhv.Queue_Stack.Queue<int> queue = new alogithms_Anhdhv.Queue_Stack.Queue<int>();
+        Console.WriteLine("lan luot push 1, 2 , 3 to Queue:");
         queue.Push(1);
         queue.Push(2);
         queue.Push(3);
-
+       
         Console.WriteLine("Queue:");
         while (!queue.IsEmpty())
         {
             Console.WriteLine(queue.Get());
         }
 
-
+        Console.WriteLine("lan luot push 1, 2, 3 to stack:");
         alogithms_Anhdhv.Queue_Stack.Stack<int> stack = new alogithms_Anhdhv.Queue_Stack.Stack<int>();
         stack.Push(1);
         stack.Push(2);

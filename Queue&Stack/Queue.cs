@@ -16,7 +16,7 @@ namespace alogithms_Anhdhv.Queue_Stack
             head = null;
             tail = null;
         }
-
+        //push data to queue
         public void Push(T item)
         {
             Node<T> newNode = new Node<T>(item);
@@ -31,6 +31,7 @@ namespace alogithms_Anhdhv.Queue_Stack
             }
         }
 
+        //get data from head of queue
         public T Get()
         {
             if (head == null)

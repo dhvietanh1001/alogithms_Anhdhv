@@ -14,7 +14,7 @@ namespace alogithms_Anhdhv.Queue_Stack
         {
             top = null;
         }
-
+        //push data to stack
         public void Push(T item)
         {
             Node<T> newNode = new Node<T>(item);
@@ -22,6 +22,7 @@ namespace alogithms_Anhdhv.Queue_Stack
             top = newNode;
         }
 
+        //get data 
         public T Get()
         {
             if (top == null)

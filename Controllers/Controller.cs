@@ -59,8 +59,8 @@ namespace alogithms_Anhdhv.Controllers
         }
 
         /* Find product by product name
-         * @param List<Product> products,string nameProduct
-         * return Product */
+         * @param List<Product> products - lisst product,string nameProduct- name of product
+         * return Product - product found */
         public Product findProduct(List<Product> products, string nameProduct)
         {
             for (int i = 0; i < products.Count; i++)
@@ -72,8 +72,8 @@ namespace alogithms_Anhdhv.Controllers
         }
 
         /* Find product by categoryid
-         * @param List<Product> products,int categoryId
-         * return List<Product> */
+         * @param List<Product> products - product list,int categoryId- id of category to find
+         * return List<Product> - list product have categoryid to find */
         public List<Product> findProductByCategory(List<Product> products, int categoryId)
         {
             List<Product> productList = new List<Product>();
@@ -88,8 +88,8 @@ namespace alogithms_Anhdhv.Controllers
         }
 
         /* Find product have price <= value
-         * @param List<Product> products,int price
-         * return Product */
+         * @param List<Product> products - list product,int price - price to find 
+         * return List<Product> - list of product have price <= price entered */
         public List<Product> findProductByPrice(List<Product> products, int price)
         {
             List<Product> productList = new List<Product>();
@@ -104,8 +104,8 @@ namespace alogithms_Anhdhv.Controllers
         }
 
         /* sort product by price with bubble sort
-         * @param List<Product> products
-         * return List<Product> */
+         * @param List<Product> products - list product want to sort
+         * return List<Product> -list product after sort */
         public static List<Product> sortByPrice(List<Product> products)
         {
             int count = products.Count;
@@ -125,8 +125,8 @@ namespace alogithms_Anhdhv.Controllers
         }
 
         /* sort product by name with insertion sort
-         * @param List<Product> products
-         * return List<Product> */
+         * @param List<Product> products - list of product want to sort
+         * return List<Product> - list of product after sort*/
         public static List<Product> sortByName(List<Product> products)
         {
 
@@ -146,8 +146,8 @@ namespace alogithms_Anhdhv.Controllers
         }
 
         /* sort product by category name 
-         * @param List<Product> products
-         * return List<Product> */
+         * @param List<Product> products - list product want to find
+         * return List<Product> - list product get all condition */
 
         public static List<Product> sortByCategoryName(List<Product> products, List<Category> categories)
         {
@@ -171,9 +171,9 @@ namespace alogithms_Anhdhv.Controllers
             return products;
         }
 
-        /* map product to category name 
-         * @param List<Product> productsList<Product> products, List<Category> categories
-         * return Dictionary<Product,string> */
+        /* map product to category name by categoryID
+         * @param List<Product> productsList<Product> products - list product, List<Category> categories -list category
+         * return Dictionary<Product,string> - return list product have category name */
         public static Dictionary<Product, string> mapProductByCategory(List<Product> products, List<Category> categories)
         {
             Dictionary<Product, string> map = new Dictionary<Product, string>();
@@ -186,8 +186,8 @@ namespace alogithms_Anhdhv.Controllers
         }
 
         /* Find product have min price
-         * @param List<Product> products
-         * return Product */
+         * @param List<Product> products - list product want to find
+         * return Product - product have min price */
         public static Product findByMinPrice(List<Product> products)
         {
             if (products == null || products.Count == 0)
@@ -206,6 +206,9 @@ namespace alogithms_Anhdhv.Controllers
             return minPriceProduct;
         }
 
+        /* Calculate the salary after n periods 
+         * @param double salary - initial salary, int n - number of periods
+         * return double - salary after n periods */
         const double interestRate = 0.1d;
         public static double calSalary(double salary, int n)
         {
@@ -216,6 +219,9 @@ namespace alogithms_Anhdhv.Controllers
             return salary;
         }
 
+        /* Calculate the salary after n periods using recursion 
+         * @param double salary - initial salary, int n - number of periods
+         * return double - salary after n periods */
         public static double calSalaryRecursion(double salary, int n)
         {
             if (n == 1)
@@ -228,6 +234,9 @@ namespace alogithms_Anhdhv.Controllers
             }
         }
 
+        /* Calculate the number of months required to double the money  interest rate
+         * @param double money - initial amount of money, double rate - monthly interest rate in percentage
+         * return int - number of months required to double the money */
         public static int calMonth(double money, double rate)
         {
             double target = money * 2;
@@ -242,6 +251,12 @@ namespace alogithms_Anhdhv.Controllers
             return months;
         }
 
+        /* Calculate the number of months required to double the money using recursion
+         * @param double money - initial amount of money
+         * @param double rate - monthly interest rate in percentage
+         * @param double currentAmount - current amount of money
+         * @param int months - current number of months
+         * return int - number of months required to double the money */
         public static int calMonthRecursion(double money, double rate, double currentAmount, int months)
         {
             if (currentAmount >= money * 2)
@@ -254,11 +269,16 @@ namespace alogithms_Anhdhv.Controllers
             }
         }
 
+        /* Calculate the number of months required to double the money using recursion 
+         * @param double money - initial amount of money, double rate - monthly interest rate in percentage
+         * return int - number of months required to double the money */
         public static int calMonthRecursion(double money, double rate)
         {
             return calMonthRecursion(money, rate, money, 0);
         }
-
+        /* Print the hierarchical menu structure
+         * @param List<Menu> menus - list of all menus 
+         * Return null*/
         public static void PrintMenu(List<Menu> menus)
         {
             var menuDict = new Dictionary<int, List<Menu>>();
@@ -273,6 +293,10 @@ namespace alogithms_Anhdhv.Controllers
             PrintMenuDFS(menuDict, 0, 0);
         }
 
+        /* Print the hierarchical menu structure using depth-first search (DFS)
+         * @param Dictionary<int, List<Menu>> menuDict - dictionary mapping parent ID to list of menus, int parentId - ID of the parent menu
+         * @param int level - current level of depth 
+         * Return null*/
         private static void PrintMenuDFS(Dictionary<int, List<Menu>> menuDict, int parentId, int level)
         {
             if (menuDict.ContainsKey(parentId))

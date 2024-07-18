@@ -12,3 +12,4 @@ C:\Users\vieta\source\repos\alogithms_Anhdhv\alogithms_Anhdhv\obj\Debug\net8.0\r
 C:\Users\vieta\source\repos\alogithms_Anhdhv\alogithms_Anhdhv\obj\Debug\net8.0\alogithms_Anhdhv.pdb
 C:\Users\vieta\source\repos\alogithms_Anhdhv\alogithms_Anhdhv\obj\Debug\net8.0\alogithms_Anhdhv.genruntimeconfig.cache
 C:\Users\vieta\source\repos\alogithms_Anhdhv\alogithms_Anhdhv\obj\Debug\net8.0\ref\alogithms_Anhdhv.dll
+C:\Users\vieta\source\repos\alogithms_Anhdhv\alogithms_Anhdhv\obj\Debug\net8.0\alogithms_Anhdhv.sourcelink.json
